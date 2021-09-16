@@ -49,9 +49,9 @@ const AgregarUsuarios = () => {
     return (
 
         <>
-            <button className="regresar" onClick={regresar}>Regresar</button>
+            <img id="regresar" src="https://img.icons8.com/ios/50/000000/close-window.png" alt="regresar" onClick={regresar} />
 
-
+            <h1>Crear usuario</h1>
             <form className="formulario" action="" method="post" name="form">
                 <input type="text" className="input-key" placeholder="Key" required id="key" onChange={handleKey}></input>
                 <input type="text" className="input-user" placeholder="Nombre" required id="nombre" onChange={handleNombre}></input>

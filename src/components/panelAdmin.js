@@ -24,13 +24,13 @@ const panelAdmin = () => {
     return (
         <>
             <div className="panel">
-                <div id="Unresolved" onClick={agregarUsuarios}>
+                <div id="agguser" onClick={agregarUsuarios}>
                     Agregar usuarios
                 </div>
-                <div id="Overdue" onClick={eliminarUsuarios}>
+                <div id="deleteuser" onClick={eliminarUsuarios}>
                     Eliminar usuarios
                 </div>
-                <div id="Open" onClick={agregarCreditos}>
+                <div id="aggcredits" onClick={agregarCreditos}>
                     Agregar Creditos
                 </div>
 
